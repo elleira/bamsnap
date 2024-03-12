@@ -151,7 +151,7 @@ class BamSnap():
                 all_tab += '<span data-feather="file-text"></span>'+sid+'</a></li>'
                 # img_list += '<a name="'+sid+'"></a><div class="ic" id="s'+sid+'"><div class="text-block"><span class="it">'+sid+'</span><span class="badge badge-warning gt">GT 0|1</span><span class="badge badge-warning gt">DP 53</span></div><img src="../bamsnap_images/'+sid2+'_'+vid+'.png" alt="'+sid+'" style="width:100%;"></div>'
                 img_list += '<a name="'+sid+'"></a><div class="ic" id="s'+sid+'"><div class="text-block"><span class="it">' + \
-                    sid+'</span></div><img src="../bamsnap_images/'+sid2+'_'+vid+'.png" alt="'+sid+'" style="width:100%;"></div>'
+                        sid+'</span></div><img src="../bamsnap_images/'+vid.replace(':', '_')+'.png" alt="'+sid+'" style="width:100%;"></div>'
 
             d2['ALL'] = all_tab
             d2['IMGLIST'] = img_list
